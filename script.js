@@ -23,25 +23,25 @@ function generatePassword() {
     return document.querySelector("#password").value;
   }
   
-  var lowL = prompt('Would you like your password to contain lowercase letters? (Reply y for yes and n for no)');
+  var lowL = prompt('Would you like your password to contain lowercase letters? (Reply y for yes or n for no)');
   if ((lowL == null) || (lowL.toLowerCase() !== 'y' && lowL.toLowerCase() !== 'n')) {
     alert('Invalid input! Press the "Generate Password" button and try again.');
     return document.querySelector("#password").value;
   }
 
-  var upL = prompt('Would you like your password to contain uppercase letters? (Reply y for yes and n for no)');
+  var upL = prompt('Would you like your password to contain uppercase letters? (Reply y for yes or n for no)');
   if ((upL == null) || (upL.toLowerCase() !== 'y' && upL.toLowerCase() !== 'n')) {
     alert('Invalid input! Press the "Generate Password" button and try again.');
     return document.querySelector("#password").value;
   }
 
-  var wantNum = prompt('Would you like your password to contain numbers? (Reply y for yes and n for no)');
+  var wantNum = prompt('Would you like your password to contain numbers? (Reply y for yes or n for no)');
   if ((wantNum == null) || (wantNum.toLowerCase() !== 'y' && wantNum.toLowerCase() !== 'n')) {
     alert('Invalid input! Press the "Generate Password" button and try again.');
     return document.querySelector("#password").value;
   }
 
-  var sChar = prompt('Would you like your password to contain special characters? (Reply y for yes and n for no)');
+  var sChar = prompt('Would you like your password to contain special characters? (Reply y for yes or n for no)');
   if ((sChar == null) || (sChar.toLowerCase() !== 'y' && sChar.toLowerCase() !== 'n')) {
     alert('Invalid input! Press the "Generate Password" button and try again.');
     return document.querySelector("#password").value;
