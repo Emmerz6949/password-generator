@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository was created to add javascript to the pre-existing code to creat a function tha would make the "Generate Password" button functional. 
+This repository was created to add javascript to the pre-existing code to create a function that would make the "Generate Password" button functional. 
 
 You can use the commits to follow my journey.
 
@@ -12,7 +12,7 @@ You can use the commits to follow my journey.
 
 I created the generatePassword function and used string variables, the built in prompt function, if statements, if/elseif statements, and return statements to achieve random password generation. 
 
-If you wish to visit the website you can do so by following this link: https://emmerz6949.github.io/password-generator .
+If you wish to visit the website you can do so by following this link: https://emmerz6949.github.io/password-generator/ .
 
 
 
@@ -20,7 +20,7 @@ If you wish to visit the website you can do so by following this link: https://e
 
 There isn't anything to install as this is just a website that has been deployed.
 
-To use the password generator click on the link in the "How did I do it?" section of this README.md then click the "Generate Password" button on the website and answer all of the prompts.
+To use the password generator click on the link in the "How did I do it?" section of this README.md, then click the "Generate Password" button on the website and answer a series of prompts. After all prompts have been answered you will receive an appropriate outcome.
 
 
 
