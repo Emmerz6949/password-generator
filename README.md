@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository was created to add javascript to the pre-existing code to create a function that would make the "Generate Password" button functional. 
+This repository was created to add more javascript code to the pre-existing files to create a function that would make the "Generate Password" button functional. 
 
 You can use the commits to follow my journey.
 
