@@ -10,13 +10,17 @@ function writePassword() {
 
 }
 
+//assigned strings containing the desired criteria
 var lowLetters = 'abcdefghijklmnopqrstuvwxyz';
 var upLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var randNum = '0123456789';
 var special = ' !#$%&*+-./:;?@^_~';
 
+//the function that writePassword calls, it generates the password
 function generatePassword() {
   
+  /*these are prompts to ask the user their preferred password criteria, each prompt is followed by an if statement
+  that ensures the user answers with a valid input*/
   var passLength = parseInt(prompt('How long would you your password to be? (Choose a number between 8 and 128)'));
   if (passLength < 8 || passLength > 128 || isNaN(passLength)) {
     alert('Invalid input! Press the "Generate Password" button and try again.');
@@ -48,7 +52,8 @@ function generatePassword() {
   }
   
 
-  
+  /*a giant if/elseif statement that compares the user's inputs and returns an appropriate outcome for 
+  all 16 possible outcomes*/
   if (lowL == 'y' && upL == 'y' && wantNum == 'y' && sChar == 'y') {
     var pass = '';
     for (i = 0; i < passLength; i++) {
@@ -173,7 +178,7 @@ function generatePassword() {
     alert('You have answered no to all questions. No new password will be generated.');
     return document.querySelector("#password").value;
   }
-  
+  //end of giant if/elseif statement and end of the generatePassword() function
 }
 
 
