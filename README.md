@@ -4,6 +4,8 @@
 
 This repository was created to add more javascript code to the pre-existing files to create a function that would make the "Generate Password" button functional. 
 
+![image](https://i.ibb.co/8PcN0wH/Password-Generator.png)
+
 You can use the commits to follow my journey.
 
 
