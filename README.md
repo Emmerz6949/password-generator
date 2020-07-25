@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository was created to add more javascript code to the pre-existing files to create a function that would make the "Generate Password" button functional. 
+This repository was created to add more JavaScript code to the pre-existing files to create a function that would make the "Generate Password" button functional. 
 
 ![image](https://i.ibb.co/8PcN0wH/Password-Generator.png)
 
@@ -28,4 +28,4 @@ To use the password generator click on the link in the "How did I do it?" sectio
 
 ### Credits
 
-The html and css files as well as some of the javascript code were provided by Trilogy Education Services (https://www.trilogyed.com/).
+The HTML and CSS files as well as some of the JavaScript code were provided by Trilogy Education Services (https://www.trilogyed.com/).
